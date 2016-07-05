@@ -2,8 +2,8 @@
   "todos": [
     {
       "id": "f694a8d0-9f87-4b8b-b4f2-e7a0d8d9c00d",
-      "description": "cook rice",
-      "isComplete": false
+      "description": "eat rice",
+      "isComplete": "false"
     }
   ]
 }
