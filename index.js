@@ -21,7 +21,10 @@ server.get('/todos', function(request,response){
 });
 
 server.get('/todos/:id', function(request, response){
-  response.send('GET todos :id');
+  var todo = db.get('todos')
+              .find({id: request.params.id})
+              .value();
+  response.send(todo);
 });
 
 server.post('/todos', function(request, response){
