@@ -1,14 +1,14 @@
 {
   "todos": [
     {
-      "id": "da35cb05-96e0-46c4-97e2-653f43092ccc",
-      "description": "take out the trash",
-      "isComplete": "true"
+      "id": "a5a10342-66ab-4c14-a74d-9aedf5e7f9e4",
+      "description": "blah",
+      "isComplete": false
     },
     {
       "id": "e5a64ac1-3c44-475d-bbcb-6f3e48349092",
       "description": "eat better",
-      "isComplete": true
+      "isComplete": false
     }
   ]
 }

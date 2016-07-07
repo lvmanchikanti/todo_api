@@ -1,13 +1,13 @@
 var uuid = require('uuid')
 //Constructor function
 //how do i build this object?
-function Todo(description){
-  this.id = uuid.v4();
+function Todo(description, id){
+  this.id =  id || uuid.v4();
   this.description = description;
   this.isComplete = false;
 }
 
-//one tupe of design pattern to create functionality to an object
+//one type of design pattern to create functionality to an object
 Todo.prototype.updateComplete = function(value){
   if(value.toLowerCase() === 'true'){
     this.isComplete = true;
