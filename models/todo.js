@@ -9,7 +9,11 @@ function Todo(description){
 
 //one tupe of design pattern to create functionality to an object
 Todo.prototype.updateComplete = function(value){
-  this.isComplete = value;
+  if(value.toLowerCase() === 'true'){
+    this.isComplete = true;
+  } else {
+    this.isComplete = false;
+  }
 };
 
 // var todo1 = new Todo('read my book');
