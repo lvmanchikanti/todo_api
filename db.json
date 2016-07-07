@@ -1,9 +1,14 @@
 {
   "todos": [
     {
-      "id": "f694a8d0-9f87-4b8b-b4f2-e7a0d8d9c00d",
-      "description": "eat rice",
-      "isComplete": "false"
+      "id": "da35cb05-96e0-46c4-97e2-653f43092ccc",
+      "description": "take out the trash",
+      "isComplete": "true"
+    },
+    {
+      "id": "bc66d59f-a5f9-4450-890f-6eea3eaa805c",
+      "description": "take out the trash",
+      "isComplete": "true"
     }
   ]
 }

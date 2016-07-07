@@ -7,6 +7,11 @@ function Todo(description){
   this.isComplete = false;
 }
 
+//one tupe of design pattern to create functionality to an object
+Todo.prototype.updateComplete = function(value){
+  this.isComplete = value;
+};
+
 // var todo1 = new Todo('read my book');
 // var todo2 = new Todo('practice programming');
 // var todo3 = new Todo('go running');
